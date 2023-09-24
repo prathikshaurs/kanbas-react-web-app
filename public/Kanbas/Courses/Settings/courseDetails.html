@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+   <meta charset = "UTF-8">
+</head>
+<body>
+    <table width = "100%">
+        <tr>
+            <td valign = "top"><ul>
+                <li><a href = "/Kanbas/Account/AccountNavigation/index.html">Account</a></li>
+                <li><a href = "#">Dashboard</a></li>
+                <li><a href = "/Kanbas/Courses/CourseNavigation/index.html">Courses</a></li>
+                <li><a href = "#">Calendar</a></li>
+                <li><a href = "#">Inbox</a></li>
+                <li><a href = "#">History</a></li>
+                <li><a href = "#">Studio</a></li>
+                <li><a href = "#">Commons</a></li>
+                <li><a href = "#">Help</a></li>
+            </ul></td>
+            <td valign = "top"><ul>
+                <li><a href = "/Kanbas/home.html">Home</a></li>
+                <li><a href = "#">Modules</a></li>
+                <li><a href = "#">Piazza</a></li>
+                <li><a href = "#">Zoom Meetings</a></li>
+                <li><a href = "/Kanbas/Courses/Assignments/index.html">Assignments</a></li>
+                <li><a href = "#">Quizzes</a></li>
+                <li><a href = "/Kanbas/grades.html">Grades</a></li>
+                <li><a href = "#">People</a></li>
+                <li><a href = "#">Panopto Video</a></li>
+                <li><a href = "#">Discussions</a></li>
+                <li><a href = "#">Announcements</a></li>
+                <li><a href = "#">Pages</a></li>
+                <li><a href = "#">Files</a></li>
+                <li><a href = "#">Rubrics</a></li>
+                <li><a href = "#">Outcomes</a></li>
+                <li><a href = "#">Collaborations</a></li>
+                <li><a href = "#">Syllabus</a></li>
+                <li><a href = "/Kanbas/Courses/Settings/courseDetails.html">Settings</a></li>
+            </ul></td>
+            <td valign = "top">
+                <table width = "100%">
+                    <tr>
+                        <td valign = "top">
+                            <a href = "/Kanbas/Courses/Settings/courseDetails.html">Course Details</a>
+                        </td>
+                        <td valign = "top">
+                            <a href = "#">Sections</a>
+                        </td>
+                        <td valign = "top">
+                            <a href = "/Kanbas/Courses/Settings/navigation.html">Navigation</a>
+                        </td>
+                        <td valign = "top">
+                            <a href = "#">Apps</a>
+                        </td>
+                        <td valign = "top">
+                            <a href = "#">Feature Options</a>
+                        </td>
+                        <td valign = "top">
+                            <a href = "#">Integration</a>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+                <h2>Course Details</h2>
+                <label for = "choose-image">Image:  </label>
+                <input type="file" accept="image/png, image/jpeg" id = "choose-image"/><br/>
+                <label>Name:  CS5610 Web Dev Section 1 Fall 2023</label><br/>
+                <label>Course Code:  CS5610.1234.5678</label><br/>
+                <label>Blueprint Course:  No</label><br/>
+                <label>Course Template:  </label>
+                <input type="checkbox" value="enable" name="check-true" id="chkbox-enable"/>
+                <label for="chkbox-enable">Enable Course as a Course Template</label><br/>
+                <label>Time Zone:  </label>
+                <select>
+                    <option>Eastern Time(US & Canada) (-05:00/-04:00)</option>
+                </select><br/>
+                <label>SIS ID:  CS5610.1234.5678</label><br/>
+                <label>Subaccount:  CS Grad</label><br/>
+                <label>Term:  Fall 2023 Semester Full Term</label><br/>
+                <label>Participation:  </label>
+                <select>
+                    <option>Term</option>
+                </select><br/>
+                Course Participation is limited to term start and end dates.<br/>
+                <label for = "start-date">Start</label><br/>
+                <input type="date" id="start-date" value=""/><br/>
+                <label for = "end-date">End</label><br/>
+                <input type="date" id="end-date" value=""/><br/><br/>
+                <input type="checkbox" value="enable" name="check-start" id="chkbox-start"/>
+                <label for="chkbox-start">Restrict students from viewing course before term start date</label><br/>
+                <input type="checkbox" value="enable" name="check-end" id="chkbox-end"/>
+                <label for="chkbox-end">Restrict students from viewing course after term end date</label><br/><br/>
+                <label>Default due time:  </label>
+                <select>
+                    <option>Account default(11:59pm)</option>
+                </select><br/>
+                <label>Language:  </label>
+                <select>
+                    <option>Not Set(User configurable, defaults to english)</option>
+                </select><br/>
+                This will override any user/systm language preferences.<br/><br/>
+                <label>File Storage:  10000 megabytes</label><br/>
+                <label>Large Course:  </label>
+                <input type="checkbox" value="chkval" name="check-launch" id="chkbox-launch"/>
+                <label for="chkbox-launch">Launch SpeedGrader filtered by student group</label><br/>
+                <label>Grading Scheme:  </label>
+                <input type="checkbox" value="chkgrade" name="check-grade" id="chkbox-grade"/>
+                <label for="chkbox-grade">Enable course grading scheme</label><br/>
+                <label>License:  </label>
+                <select>
+                    <option>Private (Copyrighted)</option>
+                </select><br/>
+                <label>File Copyright:  </label>
+                <input type="checkbox" value="chklic" name="check-lic" id="chkbox-lic"/>
+                <label for="chkbox-lic">Copyright and license info must be provided</label><br/>
+                <label>Visibility:  If you need to make your course public please contact your admin/support.</label><br/>
+                <select>
+                    <option>Course</option>
+                </select><br/>
+                <input type="checkbox" value="chkinc" name="check-inc" id="chkbox-inc"/>
+                <label for="chkbox-inc">Include this course in the public course index</label><br/><br/>
+                <label>Format:  </label>
+                <select>
+                    <option>On-Campus</option>
+                </select><br/>
+                <label>Mastery Paths:  </label>
+                <input type="checkbox" value="chkindv" name="check-indv" id="chkbox-indv"/>
+                <label for="chkbox-indv">Enable individual learning paths for students based on assessment</label><br/>
+                <label>Description:  </label>
+                <textarea cols = "40" rows = "4"></textarea><br />
+                <a href = "#">more options</a>
+                <button>Update Course Details</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
