@@ -2,52 +2,100 @@
 <html lang = "en">
 <head>
    <meta charset = "UTF-8">
+   <link href = "/Kanbas/Courses/Assignments/index.css" rel="stylesheet"/>
+    <link href = "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href = "/styles.css" rel="stylesheet"/>
 </head>
 <body>
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Web Dev</a></li>
+          <li class="breadcrumb-item"><a href="#">Fall 2023</a></li>
+          <li class="breadcrumb-item"><a href="#">Sec 1</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Assignments</li>
+        </ol>
+      </nav>
     <table width = "100%">
         <tr>
             <td valign = "top"><ul>
-                <li><a href = "/Kanbas/Account/AccountNavigation/index.html">Account</a></li>
-                <li><a href = "#">Dashboard</a></li>
-                <li><a href = "/Kanbas/Courses/CourseNavigation/index.html">Courses</a></li>
-                <li><a href = "#">Calendar</a></li>
-                <li><a href = "#">Inbox</a></li>
-                <li><a href = "#">History</a></li>
-                <li><a href = "#">Studio</a></li>
-                <li><a href = "#">Commons</a></li>
-                <li><a href = "#">Help</a></li>
+                <div class = "wd-kanbas-navigation">
+                    <li>
+                        <i class="fa-solid fa-user" style="color: red"></i></br>
+                        <a href = "/Kanbas/Account/Profile/index.html">Account</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-gauge" style = "color: red"></i></br>
+                        <a href = "#">Dashboard</a>
+                    </li>
+                    <li>
+                        <div class = "wd-kanbas-selected">
+                        <i class="fa-solid fa-book" style = "color: red"></i></br>
+                        <a href = "/Kanbas/Courses/CourseNavigation/index.html"><div class = "wd-fg-color-red">Courses</div></a>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-calendar-days"style = "color: red"></i></br>
+                        <a href = "#">Calendar</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-inbox" style = "color: red"></i></br>
+                        <a href = "#">Inbox</a>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-clock" style = "color: red"></i></br>
+                        <a href = "#">History</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-display" style = "color: red"></i></br>
+                        <a href = "#">Studio</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-right-from-bracket" style = "color: red"></i></br>
+                        <a href = "#">Commons</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-question" style = "color: red"></i></br>
+                        <a href = "#">Help</a>
+                    </li>
             </ul></td>
             <td valign = "top"><ul>
-                <li><a href = "/Kanbas/home.html">Home</a></li>
-                <li><a href = "#">Modules</a></li>
-                <li><a href = "#">Piazza</a></li>
-                <li><a href = "#">Zoom Meetings</a></li>
-                <li><a href = "/Kanbas/Courses/Assignments/index.html">Assignments</a></li>
-                <li><a href = "#">Quizzes</a></li>
-                <li><a href = "/Kanbas/grades.html">Grades</a></li>
-                <li><a href = "#">People</a></li>
-                <li><a href = "#">Panopto Video</a></li>
-                <li><a href = "#">Discussions</a></li>
-                <li><a href = "#">Announcements</a></li>
-                <li><a href = "#">Pages</a></li>
-                <li><a href = "#">Files</a></li>
-                <li><a href = "#">Rubrics</a></li>
-                <li><a href = "#">Outcomes</a></li>
-                <li><a href = "#">Collaborations</a></li>
-                <li><a href = "#">Syllabus</a></li>
-                <li><a href = "/Kanbas/Courses/Settings/courseDetails.html">Settings</a></li>
+                <div class = "wd-account-navigation">
+                  <li><a href = "/Kanbas/home.html" style="text-decoration:none"><div class = "wd-fg-color-red">Home</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Modules</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Piazza</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Zoom Meetings</div></a></li></br>
+                  <div class = "wd-home-selected">
+                  <li><a href = "/Kanbas/Courses/Assignments/index.html" style="text-decoration:none"><div class = "wd-fg-color-black">Assignments</div></a></li></br>
+                  </div>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Quizzes</div></a></li></br>
+                  <li><a href = "/Kanbas/grades.html" style="text-decoration:none"><div class = "wd-fg-color-red">Grades</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">People</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Panopto Video</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Discussions</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Announcements</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Pages</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Files</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Rubrics</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Outcomes</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Collaborations</div></a></li></br>
+                  <li><a href = "#" style="text-decoration:none"><div class = "wd-fg-color-red">Syllabus</div></a></li></br>
+                  <li><a href = "/Kanbas/Courses/Settings/courseDetails.html" style="text-decoration:none"><div class = "wd-fg-color-red">Settings</div></a></li></br>
+              </div>
             </ul></td>
             <td valign = "top">
-                <input title = "Assignment Name" placeholder = "Search for Assignments"/>
-                <button>Group</button>
-                <button>Assignment</button>
-                <select>
-                    <option>Edit Assignment Dates</option>
-                    <option>Option A</option>
-                    <option>Option B</option>
-                </select>
-
-                <h4>ASSIGNMENTS 40% of Total
+                <input title = "Assignment Name" class = "form-control" placeholder = "Search for Assignments"/>
+                <div class="float-end">
+                    <button>Group</button>
+                    <button>Assignment</button>
+                    <select>
+                        <option>Edit Assignment Dates</option>
+                        <option>Option A</option>
+                        <option>Option B</option>
+                    </select>
+                </div>
+                <p>
+                    ASSIGNMENTS <div class="wd-rounded-corners-all-around wd-border-thin wd-border-solid wd-padding-fat">
+                    40% of Total</div> <i class="fa-solid fa-plus"><i class="fa-solid fa-ellipsis-vertical"></i></i>
                       <select>
                         <option>Edit</option>
                         <option>Speed Grader</option>
@@ -57,23 +105,24 @@
                         <option>Send To</option>
                         <option>Copy To</option>
                         <option>Share To Commons</option>
-                      </select></h4>
+                      </select></p>
                       <ul>
-                        <li><a href = "/Kanbas/Courses/Assignments/edit.html">A1 - ENV + HTML</a><br>
-                        <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "/Kanbas/Courses/Assignments/edit.html">A2 - CSS + BOOTSTRAP</a><br>
-                        <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "/Kanbas/Courses/Assignments/edit.html">A3 - JS + REACT</a><br>
-                        <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "/Kanbas/Courses/Assignments/edit.html">A4 - STATE + REDUX</a><br>
-                        <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "/Kanbas/Courses/Assignments/edit.html">A5 - NODE + SESSION</a><br>
-                        <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "/Kanbas/Courses/Assignments/edit.html">A6 - MONGO</a><br>
-                        <a href = "#">Multiple Modules</a> | Not available yet</li>
+                        <li><a href = "/Kanbas/Courses/Assignments/edit.html" style="text-decoration:none"><div class = "wd-fg-color-black">A1 - ENV + HTML</div></a>
+                        <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "/Kanbas/Courses/Assignments/edit.html" style="text-decoration:none"><div class = "wd-fg-color-black">A2 - CSS + BOOTSTRAP</div></a>
+                        <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "/Kanbas/Courses/Assignments/edit.html" style="text-decoration:none"><div class = "wd-fg-color-black">A3 - JS + REACT</div></a>
+                        <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "/Kanbas/Courses/Assignments/edit.html" style="text-decoration:none"><div class = "wd-fg-color-black">A4 - STATE + REDUX</div></a>
+                        <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "/Kanbas/Courses/Assignments/edit.html" style="text-decoration:none"><div class = "wd-fg-color-black">A5 - NODE + SESSION</div></a>
+                        <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "/Kanbas/Courses/Assignments/edit.html" style="text-decoration:none"><div class = "wd-fg-color-black">A6 - MONGO</div></a>
+                        <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
                       </ul>
                     
-                    <h4>QUIZZES 10% of Total
+                    <p>QUIZZES <div class="wd-rounded-corners-all-around wd-border-thin wd-border-solid wd-padding-fat">
+                        10% of Total</div><i class="fa-solid fa-plus"><i class="fa-solid fa-ellipsis-vertical"></i></i>
                         <select>
                             <option>Edit</option>
                             <option>Speed Grader</option>
@@ -83,22 +132,23 @@
                             <option>Send To</option>
                             <option>Copy To</option>
                             <option>Share To Commons</option>
-                        </select></h4>
+                        </select></p>
 
                         <ul>
-                        <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542222">Q1 - HTML</a><br>
-                            <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "https://northeastern.instructure.com/courses/157035/assignments/1978556">Q2 - CSS</a><br>
-                            <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "https://northeastern.instructure.com/courses/157035/assignments/1978557">Q3 - JS, ES6</a><br>
-                            <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542227">Q4 - NODE</a><br>
-                            <a href = "#">Multiple Modules</a> | Not available yet</li>
-                        <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224">Q5 - MONGO</a><br>
-                            <a href = "#">Multiple Modules</a> | Not available yet</li>
+                        <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542222" style="text-decoration:none"><div class = "wd-fg-color-black">Q1 - HTML</div></a>
+                            <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "https://northeastern.instructure.com/courses/157035/assignments/1978556" style="text-decoration:none"><div class = "wd-fg-color-black">Q2 - CSS</div></a>
+                            <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "https://northeastern.instructure.com/courses/157035/assignments/1978557" style="text-decoration:none"><div class = "wd-fg-color-black">Q3 - JS, ES6</div></a>
+                            <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542227" style="text-decoration:none"><div class = "wd-fg-color-black">Q4 - NODE</div></a>
+                            <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                        <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224" style="text-decoration:none"><div class = "wd-fg-color-black">Q5 - MONGO</div></a>
+                            <a href = "#" style="text-decoration:none"><div class = "wd-fg-color-black">Multiple Modules</div></a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
                         </ul>
 
-                        <h4>EXAM 20% of Total
+                        <p>EXAM <div class="wd-rounded-corners-all-around wd-border-thin wd-border-solid wd-padding-fat">
+                            20% of Total</div><i class="fa-solid fa-plus"><i class="fa-solid fa-ellipsis-vertical"></i></i>
                             <select>
                                 <option>Edit</option>
                                 <option>Speed Grader</option>
@@ -108,15 +158,16 @@
                                 <option>Send To</option>
                                 <option>Copy To</option>
                                 <option>Share To Commons</option>
-                            </select></h4>
+                            </select></p>
                             <ul>
-                                <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224">Midterm</a><br>
-                                    <a href = "#">Multiple Modules</a> | Not available yet</li>
-                                <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224">Final</a><br>
-                                    <a href = "#">Multiple Modules</a> | Not available yet</li>
+                                <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224" style="text-decoration:none">Midterm</a><br>
+                                    <a href = "#" style="text-decoration:none">Multiple Modules</a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
+                                <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224" style="text-decoration:none">Final</a><br>
+                                    <a href = "#" style="text-decoration:none">Multiple Modules</a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
                             </ul>
 
-                            <h4>PROJECT 30% of Total
+                            <p>PROJECT <div class="wd-rounded-corners-all-around wd-border-thin wd-border-solid wd-padding-fat">
+                                30% of Total</div><i class="fa-solid fa-plus"><i class="fa-solid fa-ellipsis-vertical"></i>
                                 <select>
                                     <option>Edit</option>
                                     <option>Speed Grader</option>
@@ -126,10 +177,10 @@
                                     <option>Send To</option>
                                     <option>Copy To</option>
                                     <option>Share To Commons</option>
-                                </select></h4>
+                                </select></p>
                                 <ul>
-                                    <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224">Project</a>
-                                        <a href = "#">Multiple Modules</a> | Not available yet</li>
+                                    <li><a href = "https://northeastern.instructure.com/courses/157035/quizzes/542224" style="text-decoration:none">Project</a>
+                                        <a href = "#" style="text-decoration:none">Multiple Modules</a> | Not available yet<i class="fa-regular fa-circle-check"></i></li>
                                 </ul>
 
 </body>

@@ -1,0 +1,55 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 10px;
+    width: 80px;
+    margin: 10px;
+  }
+
+  .wd-kanbas-selected {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 60px;
+    margin: 0px;
+  }
+  
+  .wd-kanbas-navigation li {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  
+  .wd-kanbas-navigation li.wd-active {
+    background-color: white;
+  }
+  .wd-kanbas-navigation li.wd-active a {
+    color: red;
+  }
+  
+  .wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .wd-kanbas-navigation a i {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+
+  .wd-home-selected {
+    padding: 10px;
+    border-left: solid;
+  }
+
+  .wd-account-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    width: 195px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
