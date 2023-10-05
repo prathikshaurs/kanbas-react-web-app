@@ -38,3 +38,18 @@
     font-size: 2em;
     margin-bottom: 5px;
   }
+
+  .wd-account-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    width: 195px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .wd-account-selected {
+    padding: 10px;
+    border-left: solid;
+  }
