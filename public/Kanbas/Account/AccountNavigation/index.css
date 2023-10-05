@@ -40,19 +40,16 @@
   }
 
   .wd-account-navigation {
-    background-color: green;
-    color: red;
+    background-color: white;
     list-style: none;
     padding: 10px;
-    width: 80px;
-    margin: 10px;
+    width: 195px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .wd-account-selected {
-    background-color: white;
-    color: black;
-    list-style: none;
-    padding: 0px;
-    width: 60px;
-    margin: 0px;
+    padding: 10px;
+    border-left: solid;
   }
