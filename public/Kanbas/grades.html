@@ -4,9 +4,18 @@
    <meta charset = "UTF-8">
    <link href = "/Kanbas/gradesIndex.css" rel="stylesheet"/>
    <link href = "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css" rel="stylesheet"/>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
    <link href = "/styles.css" rel="stylesheet"/>
 </head>
 <body>
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Web Dev</a></li>
+      <li class="breadcrumb-item"><a href="#">Fall 2023</a></li>
+      <li class="breadcrumb-item"><a href="#">Sec 1</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Grades</li>
+    </ol>
+  </nav>
     <table width = "100%">
         <tr>
             <td valign = "top"><ul>
@@ -80,13 +89,13 @@
                     <option>Option A</option>
                     <option>Option B</option>
                   </select>
-                <button>Import</button>
+                <button><i class="fa-solid fa-file-import"></i>Import</button>
                 <select>
                   <option>Export</option>
                   <option>Option A</option>
                   <option>Option B</option>
                 </select>
-                <button>Configure</button>
+                <button><i class="fa-solid fa-gear"></i></button>
 
                 <table width="100%">
                     <tbody>
@@ -107,7 +116,7 @@
                     </tbody>
                 </table>
 
-                <button>Apply Filters</button>
+                <button><i class="fa-solid fa-filter"></i>Apply Filters</button>
 
                 <table border = 1 width="100%">
                     <thead>
