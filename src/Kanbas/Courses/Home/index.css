@@ -1,0 +1,16 @@
+.wd-publish-dropdown {
+  display: contents;
+}
+
+.wd-bg-color-light-green {
+  background-color: #a0d6a0;
+}
+
+.wd-bg-color-light-green:hover {
+  background-color: #a0d6a0;
+}
+
+.wd-todo-subtext {
+  color: #677179;
+  font-size: 12px;
+}

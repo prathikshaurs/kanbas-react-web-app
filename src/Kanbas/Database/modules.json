@@ -1,0 +1,176 @@
+[
+  {
+    "_id": "CS5610.202330",
+    "course": "RS101",
+    "weeks": [
+      {
+        "topic": "Week 0 - INTRODUCTION",
+        "headings": [
+          {
+            "name": "LEARNING OBJECTIVES",
+            "objectives": [
+              "Introduction to the course",
+              "What is Web Development"
+            ]
+          },
+          {
+            "name": "READING",
+            "objectives": [
+              "Full STack Developer - Chapter 1 - Introduction",
+              "Full STack Developer - Chapter 2 - Creating User Interfaces with HTML"
+            ]
+          },
+          {
+            "name": "SLIDES",
+            "objectives": [
+              "Intro to Web Development",
+              "Creating an HTTP Server"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Week 1 - HTML",
+        "headings": [
+          {
+            "name": "LEARNING OBJECTIVES",
+            "objectives": [
+              "Introduction to the course",
+              "What is Web Development"
+            ]
+          },
+          {
+            "name": "READING",
+            "objectives": [
+              "Intro to Web Development",
+              "Creating an HTTP Server"
+            ]
+          },
+          {
+            "name": "SLIDES",
+            "objectives": [
+              "Intro to Web Development",
+              "Creating an HTTP Server"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "CS5010.202330",
+    "course": "RS102",
+    "weeks": [
+      {
+        "topic": "Week 0 - INTRODUCTION",
+        "headings": [
+          {
+            "name": "LEARNING OBJECTIVES",
+            "objectives": [
+              "Course Overview",
+              "Intro to ML"
+            ]
+          },
+          {
+            "name": "READING",
+            "objectives": [
+              "Chapter 1",
+              "Chapter 2"
+            ]
+          },
+          {
+            "name": "SLIDES",
+            "objectives": [
+              "Course Syllabus",
+              "Intro to ML"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Week 1 - Regression and Classification",
+        "headings": [
+          {
+            "name": "LEARNING OBJECTIVES",
+            "objectives": [
+              "Linear Regression",
+              "Classification"
+            ]
+          },
+          {
+            "name": "READING",
+            "objectives": [
+              "Chapter 4",
+              "Chapter 5"
+            ]
+          },
+          {
+            "name": "SLIDES",
+            "objectives": [
+              "Linear Regression",
+              "Classification"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "CS5610.202330",
+    "course": "RS104",
+    "weeks": [
+      {
+        "topic": "Week 0 - INTRODUCTION",
+        "headings": [
+          {
+            "name": "LEARNING OBJECTIVES",
+            "objectives": [
+              "Syllabus",
+              "Introduction"
+            ]
+          },
+          {
+            "name": "READING",
+            "objectives": [
+              "Chapter 1",
+              "Chapter 2"
+            ]
+          },
+          {
+            "name": "SLIDES",
+            "objectives": [
+              "Syllabus",
+              "Introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Week 1 - Search",
+        "headings": [
+          {
+            "name": "LEARNING OBJECTIVES",
+            "objectives": [
+              "Linear Search",
+              "Binary Search"
+            ]
+          },
+          {
+            "name": "READING",
+            "objectives": [
+              "Linear Search",
+              "Binary Search"
+            ]
+          },
+          {
+            "name": "SLIDES",
+            "objectives": [
+              "Linear Search",
+              "Binary Search"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
