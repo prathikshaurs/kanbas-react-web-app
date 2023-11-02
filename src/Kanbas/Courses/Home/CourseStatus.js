@@ -68,16 +68,15 @@ function CourseStatus() {
           </div>
         </div>
         <div className="row mt-2">
-          <div className="col-1">
-            <div className="float-start wd-color-red">
-              <Bs1Circle className="wd-color-red"/>
-            </div>
+          <div className="col-10">
+            <a href="#" className="align-self-center justify-content-center">Grade
+              A2 </a>
+            <p className="wd-todo-subtext">100 points <GoDotFill/> Oct 2</p>
           </div>
           <div className="col-10">
             <a href="#" className="align-self-center justify-content-center">Grade
-              A1 - ENV + HTML</a>
-            <p className="wd-todo-subtext">100 points <GoDotFill/> Sept 18
-              at 11:59pm</p>
+              A3 </a>
+            <p className="wd-todo-subtext">100 points <GoDotFill/> Oct 10</p>
           </div>
           <div className="col-1">
             <div className="float-end"><RxCross2/>
@@ -106,8 +105,8 @@ function CourseStatus() {
           </div>
           <div className="col-11">
             <a href="#">Lecture</a>
-            <p className="wd-todo-subtext mb-0">CS4500.12631.202410</p>
-            <p className="wd-todo-subtext">Sept 11 at 11:45am</p>
+            <p className="wd-todo-subtext mb-0">CS5610</p>
+            <p className="wd-todo-subtext">Oct 15</p>
           </div>
         </div>
         <div className="row mt-2">
@@ -115,9 +114,9 @@ function CourseStatus() {
             <FaCalendarDays className="fs-sm me-2 mb-2" style={{marginTop: 6}}/>
           </div>
           <div className="col-11">
-            <a href="#">CS5610 06 SP23 Lecture</a>
-            <p className="wd-todo-subtext mb-0">CS4500.12631.202410</p>
-            <p className="wd-todo-subtext">Sept 11 at 6pm</p>
+            <a href="#">Lecture</a>
+            <p className="wd-todo-subtext mb-0">CS6200</p>
+            <p className="wd-todo-subtext">Oct 16</p>
           </div>
         </div>
         <div className="row mt-2">
@@ -125,14 +124,14 @@ function CourseStatus() {
             <FaCalendarDays className="fs-sm me-2 mb-2" style={{marginTop: 6}}/>
           </div>
           <div className="col-11">
-            <a href="#">CS5610 Web Development Summer 1 2023 Lecture</a>
-            <p className="wd-todo-subtext mb-0">CS4500.12631.202410</p>
-            <p className="wd-todo-subtext">Sept 11 at 7pm</p>
+            <a href="#">Lecture</a>
+            <p className="wd-todo-subtext mb-0">CS5610</p>
+            <p className="wd-todo-subtext">Oct 19</p>
           </div>
         </div>
         <div className="row">
           <div className="col">
-            <a href="#" className="fs-6">12 more in the next week...</a>
+            <a href="#" className="fs-6">next week....</a>
           </div>
         </div>
       </>
