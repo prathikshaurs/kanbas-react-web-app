@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "CS5610",
+    "name": "CS5610 Web Dev",
+    "number": "CS5610",
+    "startDate": "2023-09-10",
+    "endDate": "2023-12-15"
+  },
+  {
+    "_id": "CS6200",
+    "name": "CS6200 Machine Learning",
+    "number": "CS6200",
+    "startDate": "2023-09-10",
+    "endDate": "2023-12-15"
+  },
+  {
+    "_id": "CS5800",
+    "name": "CS5800 Algorithms",
+    "number": "CS5800",
+    "startDate": "2023-09-10",
+    "endDate": "2023-12-15"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  { "_id": "A101", "title": "HTML", "course": "CS5610" },
+  { "_id": "A102", "title": "CSS and Bootstrap", "course": "CS5610" },
+  { "_id": "A103", "title": "Node", "course": "CS5610" },
+  { "_id": "A201", "title": "Regression and Classification", "course": "CS6200" },
+  { "_id": "A202", "title": "Neural Networks", "course": "CS6200" },
+  { "_id": "A203", "title": "Deep Learning", "course": "CS6200" },
+  { "_id": "A301", "title": "Greedy algorithm", "course": "CS5800" },
+  { "_id": "A302", "title": "Search", "course": "CS5800" },
+  { "_id": "A303", "title": "Dynamic Programming", "course": "CS5800" }
+]

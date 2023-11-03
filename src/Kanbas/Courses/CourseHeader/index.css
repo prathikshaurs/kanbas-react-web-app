@@ -1,0 +1,14 @@
+.wd-profile-font {
+    font-size: 18px;
+    font-family: "Lato Extended", "Lato", "Helvetica", serif;
+    color: #2D3B45;
+  }
+  
+  .wd-bc-divider {
+    --bs-breadcrumb-divider: ">"
+  }
+  
+  a {
+    text-decoration: none;
+    color: #b52828;
+  }
