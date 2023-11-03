@@ -123,7 +123,7 @@ function ModuleList() {
   }
 
   const deleteSection = (index) => {
-    if (window.confirm("Are you sure you want to delete this module?")) {
+    if (window.confirm("Do you want to DELETE this module?")) {
       console.log(module.weeks[index]);
       module.weeks.splice(index, 1);
       setModules(modules.map((m) => m._id === module._id ? module : m));
