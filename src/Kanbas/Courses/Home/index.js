@@ -8,7 +8,7 @@ function Home() {
   return (
       <div className="row">
         <div className="col col-xl-7 col-xxl-8">
-          <div className="row">
+          {/* <div className="row">
             <div className="col pe-0">
               <div className="float-end g-2">
                 <button className="btn btn-light rounded-1 me-2">Collapse All
@@ -39,7 +39,7 @@ function Home() {
               </div>
             </div>
             <div className="wd-horiz-line mt-2"></div>
-          </div>
+          </div> */}
           <div className={'row mt-4'}>
             <Modules/>
           </div>

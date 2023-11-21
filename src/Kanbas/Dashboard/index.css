@@ -46,3 +46,9 @@
   .wd-card-small-fontsize {
     font-size: 12px;
   }
+  .wd-color-yellow {
+    color: #f1c40f;
+  }
+  .wd-cursor-pointer {
+    cursor: pointer;
+  }

@@ -1,0 +1,8 @@
+.wd-course-id {
+    font-size: 14px;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #677179;
+  }

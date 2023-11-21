@@ -8,7 +8,7 @@ function CourseName() {
   const { courseId } = useParams();
   const { pathname } = useLocation();
   const [empty, kanbas, courses, id, screen] = pathname.split("/");
-  const course = db.courses.find((course) => course._id === courseId);
+  const course = db.courses.find((course) => course.number === courseId);
 
   return (
     <div className="d-None d-md-block">
@@ -29,7 +29,7 @@ function CourseName() {
             <ol className="breadcrumb pt-3">
               <li className="breadcrumb-item">
                 <Link
-                  to={`/Kanbas/Courses/${course._id}`}
+                  to={`/Kanbas/Courses/${course.number}`}
                   className="text-danger text-decoration-none"
                 >
                   {course.name}
@@ -42,11 +42,11 @@ function CourseName() {
           </nav>
         </div>
         <div className="col-2 justify-content-end">
-          <button
+          {/* <button
             type="button"
             className="btn btn-light border border-secondary-subtle float-end"
           >
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

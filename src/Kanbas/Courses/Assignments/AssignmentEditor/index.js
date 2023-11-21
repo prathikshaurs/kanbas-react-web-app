@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import db from "../../../Database";
 
-function AssignmentEditor() {
+function EditAssignment() {
   const { assignmentId } = useParams();
   const assignment = db.assignments.find(
     (assignment) => assignment._id === assignmentId,
@@ -31,4 +31,4 @@ function AssignmentEditor() {
   );
 }
 
-export default AssignmentEditor;
+export default EditAssignment;

@@ -1,7 +1,7 @@
 [
   {
     "_id": "CS5610.202330",
-    "course": "RS101",
+    "course": "CS5610",
     "weeks": [
       {
         "topic": "Week 0 - INTRODUCTION",
@@ -58,8 +58,8 @@
     ]
   },
   {
-    "_id": "CS5010.202330",
-    "course": "RS102",
+    "_id": "CS6200.202330",
+    "course": "CS6200",
     "weeks": [
       {
         "topic": "Week 0 - INTRODUCTION",
@@ -116,8 +116,8 @@
     ]
   },
   {
-    "_id": "CS5610.202330",
-    "course": "RS104",
+    "_id": "CS5800.202330",
+    "course": "CS5800",
     "weeks": [
       {
         "topic": "Week 0 - INTRODUCTION",
