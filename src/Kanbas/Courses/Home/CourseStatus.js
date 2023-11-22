@@ -1,5 +1,5 @@
 import {FaBan, FaBullhorn, FaFileImport} from "react-icons/fa";
-import {Bs1Circle, BsCheckCircle, BsFillBarChartFill} from "react-icons/bs";
+import { BsCheckCircle, BsFillBarChartFill} from "react-icons/bs";
 import "./index.css";
 import {FiTarget} from "react-icons/fi";
 import {IoIosNotifications} from "react-icons/io";

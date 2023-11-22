@@ -1,7 +1,7 @@
 import Modules from "../Modules";
 import "./index.css"
-import {BsCheckCircle, BsThreeDotsVertical} from "react-icons/bs";
-import {AiOutlinePlus} from "react-icons/ai";
+// import {BsCheckCircle, BsThreeDotsVertical} from "react-icons/bs";
+// import {AiOutlinePlus} from "react-icons/ai";
 import CourseStatus from "./CourseStatus";
 
 function Home() {
