@@ -1,12 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addTodo, updateTodo, setTodo } from "./todosReducer";
-function TodoForm({
-    // todo,
-    // setTodo,
-    // addTodo,
-    // updateTodo
-  }) {
+function TodoForm() {
     const { todo } = useSelector((state) => state.todosReducer);
     const dispatch = useDispatch();
     return (
