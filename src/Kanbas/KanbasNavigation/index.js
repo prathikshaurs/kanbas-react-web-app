@@ -1,18 +1,20 @@
 import {BiUserCircle} from "react-icons/bi";
 import {RiDashboard3Fill} from "react-icons/ri";
 import {FaBook} from "react-icons/fa";
-import {BsFillCalendar2WeekFill} from "react-icons/bs";
+import {BsFillCalendar2WeekFill, BsBoxArrowInRight, BsFillPersonPlusFill} from "react-icons/bs";
 import {Link, useLocation} from "react-router-dom";
 import "./index.css";
 
 function KanbasNavigation() {
-  const links = ["Account", "Dashboard", "Courses", "Calendar"];
+  const links = ["Account", "Dashboard", "Courses", "Calendar", "SignUp", "SignIn"];
 
   const linkToIconMap = {
     Account: <BiUserCircle className="wd-icon"/>,
     Dashboard: <RiDashboard3Fill className="wd-icon"/>,
     Courses: <FaBook className="wd-icon"/>,
     Calendar: <BsFillCalendar2WeekFill className="wd-icon"/>,
+    SignUp: <BsFillPersonPlusFill className="wd-icon"/>,
+    SignIn: <BsBoxArrowInRight className="wd-icon"/>,
   };
 
   const {pathname} = useLocation();
